@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+*{
+    margin: 0vh;
+    padding: 0vh;
+    font-family: Calibri;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    box-sizing: border-box;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 10vh;
+    left: 0vw;
+    z-index: 2;
+}
+.navbar li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5vw 1vw;
+}
+.navlist{
+    margin: auto;
+    padding: 2vh;
+    text-decoration: none;
+    color: white;
+}
+.s{
+    font-family: 'Delicious Handrawn', cursive;
+}
+.navbar .s{
+    font-size: 5vh;
+}
+#navbar1 a:hover{
+    cursor: pointer;
+}

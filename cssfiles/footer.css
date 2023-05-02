@@ -1,0 +1,38 @@
+footer{
+    position: absolute;
+    left: 0vw;
+    right: 0vw;
+    top: 330vh;
+    height: 38vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.infosection{
+    display: flex;
+    flex-direction: row;
+}
+.footcard{
+    width: 15vw;
+    margin: auto;
+    height: 25vh;
+}
+.footcard li{
+    list-style: none;
+    padding: 0.3vh 0vw;
+}
+.footcard li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footcard h3{
+    padding: 0.2vh 0vw;
+    margin: 0.4vh 0vw;
+}
+.foot2{
+    margin: 2vh 2.5vw 0vh 2.5vw;
+    font-size: 1.9vh;
+    color: gray;
+}
